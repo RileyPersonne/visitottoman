@@ -76,6 +76,59 @@ ul li:hover a {
 	background-color: #B3B3B3;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	overflow: hidden;
+	width: 89vw;
+	height: 25vh;
+	position: relative;
+}
+.hero .slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	animation: slider 15s infinite;
+	
+}
+.slider .slide:nth-child(1) {
+    background-image: url(../images/A.jpg);
+    animation-delay: 0s;
+}
+.slider .slide:nth-child(2) {
+    background-image: url(../images/baghdad.jpg);
+    animation-delay: -2.5s;
+}
+.slider .slide:nth-child(3) {
+    background-image: url(../images/cairo.jpg);
+    animation-delay: -5s;
+}
+.slider .slide:nth-child(4) {
+    background-image: url(../images/istanbul.jpg);
+    animation-delay: -7.5s;
+}
+.slider .slide:nth-child(5) {
+    background-image: url(../images/jerusalem.jpg);
+    animation-delay: -10s;
+}
+.slider .slide:nth-child(6) {
+    background-image: url(../images/palace.jpg);
+    animation-delay: -12.5s;
+}
+@keyframes slider {
+	0%, 14%, 100% {
+		transform: translateX(0);
+		animation-timing-function: ease;
+	}
+	27% {
+		transform: translateX(-100%);
+		animation-timing-function: step-end;
+	}
+	97% {
+		transform: translateX(100%);
+		animation-timing-function: ease;
+	}
 }
 .light {
 	font-weight: bold;
