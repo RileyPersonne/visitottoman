@@ -70,6 +70,7 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
+	z-index: 0;
 }
 /* Hero Section */
 .hero {
@@ -140,6 +141,7 @@ ul li:hover a {
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	z-index: 0;
 }
 /* About Section */
 .text_column {
