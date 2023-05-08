@@ -63,14 +63,14 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 .hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-	z-index: 0;
+    color: #000000;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    letter-spacing: 4px;
+    z-index: 1;
 }
 /* Hero Section */
 .hero {
@@ -83,6 +83,7 @@ ul li:hover a {
 }
 .hero .slide {
 	position: absolute;
+	z-index: 0;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -131,8 +132,8 @@ ul li:hover a {
 	}
 }
 .light {
-	font-weight: bold;
-	color: #717070;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 .tagline {
 	text-align: center;
@@ -141,7 +142,7 @@ ul li:hover a {
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	z-index: 0;
+	z-index: 1;
 }
 /* About Section */
 .text_column {
@@ -313,6 +314,11 @@ footer {
 .hidden {
 	display: none;
 }
+.container #hero .herotext {
+    z-index: 0;
+    position: relative;
+}
+
 
 /* Mobile */
 @media (max-width: 320px) {
