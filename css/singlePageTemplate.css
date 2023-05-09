@@ -187,6 +187,7 @@ ul li:hover a {
 	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
+	padding-top: 140px;
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -199,16 +200,29 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #A3A3A3;
+	font-weight: 100;
 }
 .gallery .button{
-	height: 200px;
+	height: 250px;
+  }
+.gallery .button:hover {
+	width: 300px;
+	height: 300px;
+	font-size: 0;
+}
+.gallery .thumbnail .button.bu1 {
 	background-image: url(../images/Istanbul_2.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-.gallery .button:hover {
-	width: 250px;
-	height: 250px;
+.gallery .thumbnail .button.bu2 {
+	
+}
+.gallery .thumbnail .button.bu3 {
+	
+}
+.gallery .thumbnail .button.bu4 {
+	
 }
 /* Parallax Section */
 .banner {
@@ -546,4 +560,10 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+.bu1 {
+}
+.bu2 {
+}
+.bu3 {
 }
