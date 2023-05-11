@@ -204,11 +204,13 @@ ul li:hover a {
 }
 .gallery .button{
 	height: 250px;
+	border-radius: 30px;
   }
 .gallery .button:hover {
 	width: 300px;
 	height: 300px;
 	font-size: 0;
+	border-radius: 0;
 }
 .gallery .thumbnail .button.bu1 {
 	background-image: url(../images/Istanbul_2.jpg);
