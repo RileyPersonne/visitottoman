@@ -204,7 +204,7 @@ ul li:hover a {
 }
 .gallery .button{
 	height: 250px;
-	border-radius: 30px;
+	border-radius: 20px;
   }
 .gallery .button:hover {
 	width: 300px;
@@ -218,7 +218,11 @@ ul li:hover a {
 	background-repeat: no-repeat;
 }
 .gallery .thumbnail .button.bu2 {
-	
+	background-image: url("../images/Ottoman_travel.jpg");
+	background-size: 325px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-blend-mode: exclusion;
 }
 .gallery .thumbnail .button.bu3 {
 	
