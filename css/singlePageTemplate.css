@@ -228,6 +228,10 @@ ul li:hover a {
 	
 }
 .gallery .thumbnail .button.bu4 {
+	background-image: url("../images/Hagia_Sophia.jpg");
+	background-size: 250px;
+	background-repeat: no-repeat;
+	background-position: center top;
 	
 }
 /* Parallax Section */
